@@ -12,5 +12,11 @@ function somar(a, b){
 // console.log(somar(2, 5));
 
 document.querySelector("#calcular").addEventListener("click", function(){
-    alert("Pop-Up!");
+    let valorA = document.querySelector("#valorA").value;
+    let valorB = document.querySelector("#valorA").value;
+    if(valorA.lenght > 0 && valorB.lenght > 0){
+    alert(parseInt(valorA)+parseInt(valorB);
+    }else{
+        alert("Digite os valores para o cálculo");
+    }
 });
